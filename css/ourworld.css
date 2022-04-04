@@ -1,0 +1,31 @@
+body{
+    background-color: black;
+}
+.main{
+    width: 100%;
+    height: 274.72px;
+    margin-top:-8.5rem;
+}
+.otherimgs{
+    display: grid;
+    flex-direction: row;
+    height: 191px;
+    width: 95%;
+    padding-right: 57px;
+}
+
+.row{
+    width: 100%;
+    display: flex;
+    margin-top: 6%;
+    flex-wrap: wrap;
+    flex-direction: row;
+    color: white;
+    font-size: large;
+    text-decoration: auto; 
+}
+.font{
+    color: grey;
+    font-size: medium;
+    margin-top: -0.75rem;
+}

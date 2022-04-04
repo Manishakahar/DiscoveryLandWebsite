@@ -1,0 +1,33 @@
+body{
+    background-color: black;
+}
+.main{
+    width: 100%;
+    margin-top:-8.5rem;
+}
+
+#topImg{
+    height: 65vh;
+    position: relative;
+    overflow: hidden;
+    width:-webkit-fill-available;   ;
+    display: flex;
+    align-items: center;
+}
+
+.otherimgs{
+    display: flex;
+    flex-direction: row;
+    height: 329px;
+    width: 501px;
+}
+.row{
+    background-color: black;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    color: white;
+    text-align: center;
+    font-size: calc(16px + .4vw);
+}
